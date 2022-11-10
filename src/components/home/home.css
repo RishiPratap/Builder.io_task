@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;  
+    margin: 80px;  
+    flex-wrap: wrap;
+}
+.container__left{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.Big_text{
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 56px;
+}
+
+.small_text{
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px
+}
+
+.button{
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 18px;
+/* identical to box height, or 100% */
+text-align: center;
+color: #003145;
+width: 198px;
+height: 47px;
+background: #FFFFFF;
+border-radius: 10px;
+cursor: pointer;
+}
